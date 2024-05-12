@@ -8,12 +8,32 @@ import 'swiper/css/pagination'; //
 
 export default function Carousel() {
 
+  const breakpoints = {
+    // when window width is >= 320px
+
+    300: {
+      slidesPerView: 1,
+    },
+
+    600: {
+      slidesPerView: 2,
+    },
+
+    1000: {
+      slidesPerView: 3,
+    },
+    // when window width is >= 480px
+
+    // when window width is >= 640px
+  }
+
     
   return (
     <section className='home-book-carousel owl-carousel'>
       <Swiper
         spaceBetween={0} // Optional spacing between slides
-        slidesPerView={3} // Optional number of slides visible
+        slidesPerView={3}
+        breakpoints={breakpoints} // Optional number of slides visible
         // navigation={true} // Optional navigation arrows (requires import)
         // pagination={{ clickable: true }} // Optional pagination dots (requires import)
       >

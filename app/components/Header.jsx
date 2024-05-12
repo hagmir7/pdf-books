@@ -8,7 +8,7 @@ export default function Header() {
             <div className="row align-items-center">
                 <div className="col-6 col-lg-3 col-md-6">
                     <div className="logo">
-                        <Link href="/"><img src="https://z-pdf.com/images/site-view-options/Z-PDF.png" alt="Logo" /></Link>
+                        <Link href="/"><img src="/freedaz.pdf.png" alt="Logo" /></Link>
                     </div>
                 </div>
                 <div className="col-12 col-lg-6">
@@ -25,7 +25,7 @@ export default function Header() {
                                 </li>
 
                                 <li className="nav-item ">
-                                    <Link href="/contact-us" className="">Contact Us </Link>
+                                    <Link href="/contact" className="">Contact Us </Link>
                                 </li>
 
                                 <li className="nav-item ">

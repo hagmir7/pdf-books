@@ -17,7 +17,7 @@ export default function RootLayout({ children }) {
       <head>
         <link rel="stylesheet" href="https://www.z-pdf.com/themes/default/resources/css/bootstrap.min.css" />
         {/* <link rel="stylesheet" href="https://www.z-pdf.com/themes/default/resources/css/plugins.css" /> */}
-        <link rel="stylesheet" href="https://www.z-pdf.com/themes/default/resources/css/style.css" />
+        {/* <link rel="stylesheet" href="https://www.z-pdf.com/themes/default/resources/css/style.css" /> */}
 
       </head>
       <body className={inter.className}>

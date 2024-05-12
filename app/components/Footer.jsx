@@ -6,7 +6,7 @@ export default function Footer() {
       <div className='container'>
         <div className='row'>
           <div className='col-lg-12'>
-            <p>© 2024 Z-PDF.</p>
+            <p>© 2024 Freedaz.</p>
           </div>
         </div>
       </div>
